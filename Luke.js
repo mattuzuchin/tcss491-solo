@@ -1,4 +1,4 @@
-class Luke {
+class luke {
 	constructor() {
 
 	};
