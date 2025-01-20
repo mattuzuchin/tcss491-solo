@@ -8,6 +8,6 @@ class Luke {
 	};
 
 	draw(ctx) {
-		ctx.drawImage(ASSET_MANAGER.getAsset("./luke.png"),0,0);
+		ctx.drawImage(ASSET_MANAGER.getAsset("./lukesky.png"),0,0);
 	};
 }
