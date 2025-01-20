@@ -7,7 +7,7 @@ ASSET_MANAGER.queueDownload("./walker.png");
 ASSET_MANAGER.downloadAll(() => {
 	const canvas = document.getElementById("gameWorld");
 	const ctx = canvas.getContext("2d");
-
+	ctx.imageSmoothingEnabled = false;
 	gameEngine.addEntity(new Luke(gameEngine));
 	gameEngine.init(ctx);
 
