@@ -1,7 +1,7 @@
 class Luke {
 	constructor(game) {
 		this.game = game;
-		this.animator = new Animator(ASSET_MANAGER.getAsset("./file.png"), 0, 0, 150, 130, 3, 0.2);
+		this.animator = new Animator(ASSET_MANAGER.getAsset("./file.png"), 0, 0, 150, 130, 3, 0.1);
 		this.x = 0;
 		this.y = 0;
 		this.speed = 25;
