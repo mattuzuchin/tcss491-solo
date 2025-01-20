@@ -1,7 +1,7 @@
 class Luke {
 	constructor(game) {
 		this.game = game;
-		this.animator = new Animator(ASSET_MANAGER.getAsset("./runner.png"), 0, 0, 568, 540, 4, 0.2);
+		this.animator = new Animator(ASSET_MANAGER.getAsset("./runner.png"), 0, 0, 240, 540, 5, 0.4);
 		this.x = 0;
 		this.y = 0;
 		this.speed = 25;
@@ -9,6 +9,7 @@ class Luke {
 
 	update() {
 		this.x  += this.speed * this.game.clockTick;
+		if(this.x > 1024) this.x = 0;
 
 
 	};
