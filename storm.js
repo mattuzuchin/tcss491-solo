@@ -1,10 +1,10 @@
 class Storm {
 	constructor(game) {
 		this.game = game;
-		this.animator = new Animator(ASSET_MANAGER.getAsset("./file.png"),0, -35, 47, 222, 16, .1);
+		this.animator = new Animator(ASSET_MANAGER.getAsset("./file.png"),0, -35, 47, 222, 16, .2);
 		this.x = 0;
 		this.y = 0;
-		this.speed = 200;
+		this.speed = 300;
 	};
 
 	update() {
